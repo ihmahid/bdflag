@@ -1,0 +1,87 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	height: 1400px;
+}
+h1 ,h2 , h3, h4, h5, h6{
+	font-family: 'Kaisei HarunoUmi', serif;;
+} 
+a, a:hover{
+	text-decoration: none;
+}
+.green{
+	width: 700px;
+	height: 350px;
+	background: green;
+	position: relative;
+	text-align: center;
+}
+.red{
+	width: 190px;
+	height: 190px;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	top: 22%;
+	left: 35%;
+}
+.fb{
+	width: 130px;
+	position: fixed;
+	top: 40%;
+	right: -93px;
+	transition: 1s;
+}
+.fb:hover{
+	right: -10px;
+	cursor: pointer;
+}
+.social-media{
+	width: 100%;
+	margin: 80px 0px;
+	padding: 70px 0px;
+	background: grey;
+}
+.social-icons{
+	width: 100%;
+	text-align: center;
+}
+.social-icons li{
+	display: inline-block;
+	list-style: none;
+}
+.social-icons li a .fa{
+	display: block;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 100%;
+	font-size: 30px;
+	margin: 0px 15px;
+	transition: 1s;
+}
+.social-icons li a .fa-facebook{
+	background: #4497ED;
+	color: #fff;
+}
+.social-icons li a .fa-twitter{
+	background: #5DA9DD;
+	color: #fff;
+}
+.social-icons li a .fa-behance{
+	background: #000000;
+	color: #fff;
+}
+.social-icons li a .fa-youtube{
+	background: #FF0000;
+	color: #fff;
+}
+.social-icons li a .fa:hover{
+	background: green;
+	color: yellow;
+}
